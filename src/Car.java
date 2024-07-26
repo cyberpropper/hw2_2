@@ -4,6 +4,11 @@ public class Car extends Vehicle {
     }
 
     @Override
+    public void performMaintenance() {
+        checkEngine();
+    }
+
+    @Override
     public void updateTyre() {
         System.out.println("Меняем покрышку на машине");
     }

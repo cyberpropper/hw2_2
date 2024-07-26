@@ -8,6 +8,12 @@ public class Truck extends Vehicle {
         System.out.println("Меняем покрышку на грузовике");
     }
 
+    @Override
+    public void performMaintenance() {
+        checkEngine();
+        checkTrailer();
+    }
+
     public void checkEngine() {
         System.out.println("Проверяем двигатель грузовика");
     }

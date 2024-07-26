@@ -21,4 +21,8 @@ public abstract class Vehicle {
     public void updateTyre(String type) {
         System.out.println("Меняем " + type + " на " + modelName);
     }
+
+    public void performMaintenance() {
+
+    }
 }
